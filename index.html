@@ -1,0 +1,15 @@
+---
+layout: default
+title: Hans Isaksson
+---
+<section class="slides">
+  {% for post in site.posts %}
+    <div class="slide"><a href="{{ post.url }}"><img src="/images/{{ post.main_image }}" alt="{{ post.title }}" /></a></div>
+  {% endfor %}
+</section>
+<aside>
+  <h1>Om Hans Isaksson</h1>
+  <p>Hans Isaksson är född och uppvuxen i Luleå. Han arbetar främst i stengodslera, trä, bronsgjutningar och 
+  papier-mâché. Ateljén ligger i Stockholm.</p>
+  <a class="read-more" href="/om">Läs mer</a>
+</aside>

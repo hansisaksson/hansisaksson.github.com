@@ -1,0 +1,27 @@
+body {
+  font-family: 'Crimson Text', serif;
+}
+
+main {
+  @include griddo-row;
+}
+section.slides {
+  @include griddo-column(8);
+}
+aside {
+  @include griddo-column(4);
+}
+
+a.site-name {
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.slide img {
+  width: 387px;
+  height: auto;
+  border: 1px solid #aaa;
+}
+
+
